@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "http://www.hibernate.org/dtd/hibernate-configuration"  "-//Hibernate/Hibernate Mapping DTD 3.0//EN">
+<hibernate-mapping>
+	<class table="test" name="com.vani.bankingsystem.entity.Test">
+		<property name="dummy" column="dummy" type="string" />
+		<property name="transactionAmount" column="TRANSACTIONAMOUNT" type="string" />
+		<property name="transactionType" column="TRANSACTIONTYPE" type="string" />
+		<property name="transactionDate" column="TRANSACTIONDATE" type="date" />
+		<property name="transactionDesc" column="TRANSACTIONDESC" type="string" />
+		<property name="accountNumber" column="ACCOUNTNUMBER" type="int" />
+	</class>
+</hibernate-mapping>

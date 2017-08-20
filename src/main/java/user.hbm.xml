@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "http://www.hibernate.org/dtd/hibernate-mapping"  "-//Hibernate/Hibernate Mapping DTD 3.0//EN">
+<hibernate-mapping>
+	<class table="USER" name="com.vani.bankingsystem.entity.User">
+		<id name="userId" column="USERID" type="string">
+			<generator class="increment" />
+		 <!-- <generator class="assigned" />--> 
+		</id>
+		<property name="userPassword" column="USERPASSWORD" type="string" />
+
+	</class>
+</hibernate-mapping>
